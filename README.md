@@ -5,9 +5,11 @@ The source java file requires an external third party library Jsoup, however, a 
 
 The easiest way to use this program is to download the runnable jar file, otherwise you can download the jar file with the external libraries include and run from that directory. The raw source code is listed under source.
 
-Current Version is 1.0.0
+Current Version is 1.1.0
 
 Release notes:
+1.1.0 - Fixed the SSL Handshake bug and added an export function to export the result to a text file.
+
 1.0.0 - Initial release. Search up a valid OBDII code and it will verify the format, return the code, code title, description, severity (if included on information page), symptoms, and causes of the code.
 
 Link to Jsoup Library: https://jsoup.org/
